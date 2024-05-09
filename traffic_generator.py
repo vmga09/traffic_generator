@@ -5,7 +5,7 @@ from get_ipaddress import get_ipaddress
 
 #Load config network file
 def read_network_conf():
-        network_file = open('network.json')
+        network_file = open('/app/conf/network.json')
         data = json.load(network_file)
         return data
 
